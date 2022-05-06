@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/reactive
+    username: saschabeele
+    password:
+  liquibase:
+    change-log: classpath:liquibase/liquibase-changelog.yaml
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/reactive
+    user: saschabeele
