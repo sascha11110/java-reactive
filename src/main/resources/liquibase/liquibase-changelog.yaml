@@ -1,4 +1,4 @@
 databaseChangeLog:
   - include:
-      file: yaml/0001_init.yaml
+      file: yaml/0001_comparison.yaml
       relativeToChangelogFile: true

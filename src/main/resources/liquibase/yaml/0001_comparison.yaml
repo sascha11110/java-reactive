@@ -1,0 +1,30 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: saschabeele
+      changes:
+        - createTable:
+            tableName: comparison
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: created
+                  type: timestamp
+                  constraints:
+                    nullable: false
+              - column:
+                  name: ssoUserId
+                  type: bigint
+                  constraints:
+                    nullable: false
+              - column:
+                  name: vehicleType
+                  type: varchar(32)
+                  constraints:
+                    nullable: false

@@ -1,5 +1,10 @@
 # Java Reactive Demo
 
+## Examples
+- [Flux Buffer](src/main/java/com/example/reactive/examples/buffer/README.md)
+- [Flux Combine](src/main/java/com/example/reactive/examples/combine/README.md)
+- [Flux Error Handling](src/main/java/com/example/reactive/examples/error/README.md)
+
 ## Postgres
 ```
 CREATE DATABASE reactive;
